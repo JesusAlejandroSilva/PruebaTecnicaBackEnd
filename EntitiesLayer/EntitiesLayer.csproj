@@ -55,11 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOs\AccountDTO.cs" />
-    <Compile Include="DTOs\CourseDTO.cs" />
+    <Compile Include="DTOs\PaisesDTO.cs" />
     <Compile Include="DTOs\MapperConfig.cs" />
-    <Compile Include="DTOs\StudentDTO.cs" />
-    <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\Student.cs" />
+    <Compile Include="DTOs\DeportistaDTO.cs" />
+    <Compile Include="DTOs\RegistroDTO.cs" />
+    <Compile Include="Models\Paises.cs" />
+    <Compile Include="Models\Deportistas.cs" />
+    <Compile Include="Models\Registros.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

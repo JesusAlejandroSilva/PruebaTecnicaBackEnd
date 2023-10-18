@@ -1,4 +1,4 @@
-﻿using DataLayer.Repositories.Implements;
+﻿using BusinessLayer.Services.Implements;
 using EntitiesLayer.Models;
 using System;
 using System.Collections.Generic;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataLayer.Interfaces
+namespace BusinessLayer.Interfaces
 {
-    public interface IStudentRepository: IGenericRepository<Student>
+    public interface IDeportistaService : IGenericService<Deportistas>
     {
 
     }

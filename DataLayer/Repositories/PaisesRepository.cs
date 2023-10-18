@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Repositories
 {
-    public class CourseRepository: GenericRepository<Course>, ICourseRepository
+    public class PaisesRepository: GenericRepository<Paises>, IPaisesRepository
     {
-        public CourseRepository(TestContext testContext) : base(testContext)
+        public PaisesRepository(TestContext testContext) : base(testContext)
         {
 
         }

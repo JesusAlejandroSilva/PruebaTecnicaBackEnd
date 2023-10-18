@@ -5,9 +5,9 @@ using EntitiesLayer.Models;
 
 namespace BusinessLayer.Services
 {
-    public class CourseService: GenericService<Course>, ICourseService
+    public class PaisesService: GenericService<Paises>, IPaisesService
     {
-        public CourseService(ICourseRepository courseRepository): base(courseRepository)
+        public PaisesService(IPaisesRepository paisesRepository): base(paisesRepository)
         {
                 
         }

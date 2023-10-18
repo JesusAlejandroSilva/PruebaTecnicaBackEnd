@@ -2,16 +2,15 @@
 
 namespace EntitiesLayer.DTOs
 {
-    public class CourseDTO
+    public class PaisesDTO
     {
+        public int ID { get; set; }
         [Required(ErrorMessage = "The field CourseId is Required ")]
-        public int CourseID { get; set; }
+        public string Nombre { get; set; }
 
         [Required(ErrorMessage = "The field Title Is Required")]
         [StringLength(50)]
-        public string Title { get; set; }
-
-        public int Credits { get; set; }
+        public string Iniciales { get; set; }
 
     }
 }

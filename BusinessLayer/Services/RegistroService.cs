@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Services
 {
-    public class StudentService : GenericService<Student>, IStudentService
+    public class RegistroService: GenericService<Registros>, IRegistrosService
     {
-        public StudentService(IStudentRepository studentRepository) : base(studentRepository)
+        public RegistroService(IRegistrosRepository registrosRepository) : base(registrosRepository)
         {
                 
         }

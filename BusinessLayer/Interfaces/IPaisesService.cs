@@ -3,7 +3,7 @@ using EntitiesLayer.Models;
 
 namespace BusinessLayer.Interfaces
 {
-    public interface ICourseService : IGenericService<Course>
+    public interface IPaisesService : IGenericService<Paises>
     {
 
     }

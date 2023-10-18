@@ -14,11 +14,14 @@ namespace EntitiesLayer.DTOs
 
             return new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Course, CourseDTO>(); // GET
-                cfg.CreateMap<CourseDTO, Course>(); // POST - PUT
+                cfg.CreateMap<Paises, PaisesDTO>(); // GET
+                cfg.CreateMap<PaisesDTO, Paises>(); // POST - PUT
 
-                cfg.CreateMap<Student, StudentDTO>();
-                cfg.CreateMap<StudentDTO, Student>();
+                cfg.CreateMap<Deportistas, DeportistaDTO>();
+                cfg.CreateMap<DeportistaDTO, Deportistas>();
+
+                cfg.CreateMap<Registros, RegistroDTO>();
+                cfg.CreateMap<RegistroDTO, Registros>();
             });
         
         }

@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Repositories
 {
-    public class StudentRepository: GenericRepository<Student>, IStudentRepository
+    public class RegistroRepository: GenericRepository<Registros>, IRegistrosRepository
     {
-        public StudentRepository(TestContext testContext) : base(testContext)
+        public RegistroRepository(TestContext testContext) : base(testContext)
         {
-                
+            
         }
     }
 }

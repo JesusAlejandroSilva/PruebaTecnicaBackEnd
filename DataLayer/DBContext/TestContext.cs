@@ -19,8 +19,9 @@ namespace DataLayer.DBContext
 
         }
 
-        public DbSet<Course> Courses { get; set; }
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Deportistas> Deportistas { get; set; }
+        public DbSet<Paises> Paises { get; set; }
+        public DbSet<Registros> Registros { get; set; }
 
 
         public static TestContext Create()

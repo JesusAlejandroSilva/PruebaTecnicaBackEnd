@@ -7,21 +7,16 @@ using System.Threading.Tasks;
 
 namespace EntitiesLayer.DTOs
 {
-    public class StudentDTO
+    public class DeportistaDTO
     {
         public int ID { get; set; }
-
         [Required]
-        public string LastName { get; set; }
+        public string Nombres { get; set; }
         [Required]
-        public string FirstMidName { get; set; }
+        public string Apellidos { get; set; }
         [Required]
-        public DateTime EnrollmentDate { get; set; }
+        public int Id_Pais { get; set; }
 
 
-        public string FullName
-        {
-            get { return string.Format("{0} {1}", LastName, FirstMidName); }
-        }
     }
 }
